@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Jump-Game</title>
+</head>
+<body>
+    <main>
+        <div data-game-container class="gameContainer">
+            <div data-character class="character"></div>
+            <div data-block class="block"></div>
+            <div class="scoreBoard centerText">
+                <p>
+                    <div class="highScoreText" id="highScoreText">
+                        <span>Best Score: </span>
+                        <span data-best-score>0</span>
+                    </div>
+                    <div class="currentScoreText" id="currentScoreText">
+                        <span>Score: </span>
+                        <span data-score>0</span>
+                    </div>
+                </p>
+            </div>
+            <div class="gameOverContainer hide" id="gameOver">
+                <p>Game Over</p>
+                <p>Press R to restart</p>
+            </div>
+        </div>
+    </main>
+    <div class="creditTag">
+        <footer>
+            <p>
+                Created By: Justin Shawn<br>
+                Github: <a href="https://github.com/JPannn">JPannn</a>
+            </p>
+            <p>
+                Credit: <a href="https://www.youtube.com/watch?v=bG2BmmYr9NQ">KnifeCircus</a>
+                - Main Inspiration to create this game.<br>
+                Credit: <a href="https://www.youtube.com/watch?v=2uMHp9OOq6g&t=460s">Mr. Soderquist</a>
+                - Helped create and track a score for the game.
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
